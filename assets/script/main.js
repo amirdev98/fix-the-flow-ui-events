@@ -18,6 +18,10 @@ function designHandler() {
   design.classList.toggle("design");
 }
 
+
+
+
+//-----3-----
 let E = document.querySelector("a:nth-of-type(3)");
 
 E.addEventListener("dblclick", EHandler);
@@ -29,14 +33,18 @@ function EHandler() {
   E.classList.toggle("E");
 }
 
-let disco = document.querySelector("a:nth-of-type(4)");
-b 
-disco.addEventListener("mouseover", discoHandler);
-disco.addEventListener("animationend", discoHandler);
+
+
+
+//-----4-----
+let disco = document.querySelector('a:nth-of-type(4)')
+
+disco.addEventListener('mouseover', discoHandler)
+
 
 function discoHandler() {
-  disco.classList.toggle("nth-of-type-active");
-  disco.classList.toggle("disco");
+  disco.classList.toggle('nth-of-type-active')
+  disco.classList.toggle('disco')
 }
 
 

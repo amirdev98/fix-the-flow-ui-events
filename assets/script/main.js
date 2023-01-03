@@ -1,3 +1,5 @@
+//1
+
 let frontend = document.querySelector("a:nth-of-type(1)");
 
 frontend.addEventListener("dblclick", frontendHandler);
@@ -7,6 +9,8 @@ function frontendHandler() {
   frontend.classList.toggle("nth-of-type-active");
   frontend.classList.toggle("frontend");
 }
+//design
+
 
 let design = document.querySelector("a:nth-of-type(2)");
 
@@ -21,7 +25,8 @@ function designHandler() {
 
 
 
-//-----3-----
+//-----E-----
+
 let E = document.querySelector("a:nth-of-type(3)");
 
 E.addEventListener("dblclick", EHandler);
@@ -36,7 +41,9 @@ function EHandler() {
 
 
 
-//-----4-----
+//-----disco-----
+
+
 let disco = document.querySelector('a:nth-of-type(4)')
 
 disco.addEventListener('mouseover', discoHandler)
@@ -49,6 +56,8 @@ function discoHandler() {
 
 
 
+//sprint5
+
 
 let sprint5 = document.querySelector("a:nth-of-type(5)");
 
@@ -60,9 +69,10 @@ function sprint5Handler() {
   sprint5.classList.toggle("sprint5");
 }
 
+//6
 let fix = document.querySelector("a:nth-of-type(6)");
 
-fix.addEventListener("dblclick", fixHandler);
+fix.addEventListener("click", fixHandler);
 fix.addEventListener("animationend", fixHandler);
 
 function fixHandler() {
@@ -71,17 +81,66 @@ function fixHandler() {
 }
 
 
-let The = document.querySelector("a:nth-of-type(6)");
-
-The.addEventListener("dblclick", TheHandler);
+//the
 
 
-function TheHandler() {
-  The.classList.toggle("nth-of-type-active");
-  The.classList.toggle("The");
+let the = document.querySelector("a:nth-of-type(7)");
+
+the.addEventListener("dblclick", theHandler); 
+function theHandler() {
+  the.classList.toggle("nth-of-type-active");
+  the.classList.toggle("the");
+}
+
+//flow
+
+
+let flow = document.querySelector("a:nth-of-type(8)");
+
+flow.addEventListener("dblclick", flowHandler); 
+function flowHandler() {
+  flow.classList.toggle("nth-of-type-active");
+  flow.classList.toggle("flow");
 }
 
 
+
+
+
+//user
+let user = document.querySelector("a:nth-of-type(9)");
+
+user.addEventListener("dblclick", userHandler); 
+function userHandler() {
+  user.classList.toggle("nth-of-type-active");
+  user.classList.toggle("user");
+}
+
+
+//interface
+let interface = document.querySelector("a:nth-of-type(10)");
+
+interface.addEventListener("click", interfaceHandler); 
+function interfaceHandler() {
+  interface.classList.toggle("nth-of-type-active");
+  interface.classList.toggle("interface");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//12justus
 let interaction = document.querySelector('a:nth-of-type(12)')
 
 interaction.addEventListener('click', jumpHandler)

@@ -271,7 +271,6 @@ a:nth-of-type(5) {
 }
 
 
-/* fix */
 
 a:nth-of-type(6) {
   position: relative;
@@ -283,7 +282,7 @@ a:nth-of-type(6) {
 .fix {
   animation-name: fix;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
@@ -292,96 +291,18 @@ a:nth-of-type(6) {
   
   0%{
 transform: scale(1,1);
+background-color: #00FF00;
   }
   50%{
     transform: scale(2,2);
+   
   }
   100%{
-  
+  transform: scale(1,1);
+  background-color: #FFFF00;
+  color: #0080FF;
   }
-
-
 }
-
-a span:nth-child(1) {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 3px;
-	background: linear-gradient(to right, #171618, #3bff3b);
-	animation: animate1 2s linear infinite;
-}
-
-@keyframes animate1 {
-	0% {
-		transform: translateX(-100%);
-		  border-radius: 2.4rem;
-
-	}
-	100% {
-		transform: translateX(100%);
-	}
-}
-
-a span:nth-child(2) {
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	width: 3px;
-	background: linear-gradient(to bottom, #171618, #3bff3b);
-	animation: animate2 2s linear infinite;
-	animation-delay: 1s;
-}
-@keyframes animate2 {
-	0% {
-		transform: translateY(-100%);
-	}
-	100% {
-		transform: translateY(100%);
-	}
-}
-
-a span:nth-child(3) {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	height: 3px;
-	background: linear-gradient(to left, #171618, #3bff3b);
-	animation: animate3 2s linear infinite;
-}
-
-@keyframes animate3 {
-	0% {
-		transform: translateX(100%);
-	}
-	100% {
-		transform: translateX(-100%);
-	}
-}
-
-a span:nth-child(4) {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 3px;
-	background: linear-gradient(to top, #171618, #3bff3b);
-	animation: animate4 2s linear infinite;
-	animation-delay: 1s;
-}
-
-@keyframes animate4 {
-	0% {
-		transform: translateY(100%);
-	}
-	100% {
-		transform: translateY(-100%);
-	}
-}
-
 
 
 
@@ -389,29 +310,133 @@ a:nth-of-type(7) {
   position: relative;
 }
 
-.The {
-  animation-name: The;
+.the{
+  animation-name: the;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-  animation-duration: 1.5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
 
-@keyframes The{
+@keyframes the {
+  0% {
+   
+    background-color:lightseagreen;
+  }
+  20% {
+    transform: scale(1.1, 0.9) translateY(1);
+  }
+  30% {
+    transform: scale(0.9, 1.1)  rotate(100deg);
+    background-color:#0080FF;
+  }
+  50% {
+    transform: scale(1.05, ) translateY(0);
+  }
+  70% {
+    transform: scale(1, 1)  rotate(-100deg);
+    background-color: #ff0000;
+  }
+  85% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+
+
+
+a:nth-of-type(8) {
+  position: relative;
+}
+
+.flow{
+  animation-name: flow;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes flow {
+  0%{
+    transform: scale(1,1);
+    background-color: #00FF00;
+      }
+      50%{
+        transform: scale(-2,2);
+       
+      }
+      100%{
+      transform: scale(1,1);
+      background-color:#ff0000;
+      color: #00ff6e;
+      }
+    }
+    
+
+
+a:nth-of-type(9) {
+  position: relative;
+}
+
+
+
+
+.user {
+  animation-name: user;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+}
+
+
+@keyframes user{
   
   0%{
-    transform: scale3d(0.4rem);
-   background-color: #FF8000;
+transform: scale(-5);
+
   }
   50%{
-  transform: scale3d(-4rem);
-    
-    background-color: #FF8000;
+    transform: scale3d(2);
+    background-color: #00FF80;
+   
   }
   100%{
-    transform: scale3d(4rem);
-    background-color: #FF8000;
+  transform: scale(1,2);
+  background-color: #FFFF00;
+  color: #0080FF;
   }
-
-
 }
+
+
+
+
+
+
+a:nth-of-type(10) {
+  position: relative;
+}
+
+
+
+
+.interface {
+  animation-name: interface;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+}
+
+
+@keyframes interface{
+  
+  
+    0% { top: 0; left: 0; }
+    50% {top:200%; left:300%;}
+    100% {top:0%; left:0%;}
+  }
+}
+

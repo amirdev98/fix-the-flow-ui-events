@@ -84,14 +84,14 @@ a:nth-of-type(1) {
   position: relative;
 }
 
-.frontend{
-  animation-name: frontend;
+.trill{
+  animation-name: trill;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
   animation-duration:0.2s;
   animation-iteration-count: infinite;
 }
 
-@keyframes frontend{
+@keyframes trill{
 0%{
 transform: translateX(0.5rem);
 background-color: #00FFFF;
@@ -113,14 +113,14 @@ background-color:cadetblue
 a:nth-of-type(2) {
   position: relative;
 }
-.design{
-  animation-name: design;
+.jump2{
+  animation-name: jump2;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
   animation-duration: 1.5s;
   animation-iteration-count: infinite;  
 }
 
-@keyframes design{
+@keyframes jump2{
   0% {
     transform: scale(1, 1) translateY(0);
   }
@@ -148,15 +148,15 @@ a:nth-of-type(3) {
   position: relative;
 }
 
-.E{
-  animation-name: E;
+.updown{
+  animation-name: updown;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
   animation-duration:1s;
   animation-iteration-count:infinite ;
 }
 
 
-@keyframes E{
+@keyframes updown{
 
   0%{
     transform: translateY(0.8rem);
@@ -243,15 +243,15 @@ a:nth-of-type(5) {
   position: relative;
 }
 
-.sprint5 {
-  animation-name: sprint5;
+.toggle {
+  animation-name: toggle;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
 
 
-@keyframes sprint5{
+@keyframes toggle{
   
   0%{
     transform: scale3d(0.4rem);
@@ -279,15 +279,15 @@ a:nth-of-type(6) {
 
 
 
-.fix {
-  animation-name: fix;
+.zoomin {
+  animation-name: zoomin;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
 
-@keyframes fix{
+@keyframes zoomin{
   
   0%{
 transform: scale(1,1);
@@ -310,15 +310,15 @@ a:nth-of-type(7) {
   position: relative;
 }
 
-.the{
-  animation-name: the;
+.turn{
+  animation-name: turn;
   animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
 
-@keyframes the {
+@keyframes turn {
   0% {
    
     background-color:lightseagreen;

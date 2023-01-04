@@ -1,41 +1,41 @@
 //1
 
-let frontend = document.querySelector("a:nth-of-type(1)");
+let trill = document.querySelector("a:nth-of-type(1)");
 
-frontend.addEventListener("dblclick", frontendHandler);
-frontend.addEventListener("animationend", frontendHandler);
+trill.addEventListener("dblclick", trillHandler);
+trill.addEventListener("animationend", trillHandler);
 
-function frontendHandler() {
-  frontend.classList.toggle("nth-of-type-active");
-  frontend.classList.toggle("frontend");
+function trillHandler() {
+  trill.classList.toggle("nth-of-type-active");
+  trill.classList.toggle("trill");
 }
 //design
 
 
-let design = document.querySelector("a:nth-of-type(2)");
+let jump2 = document.querySelector("a:nth-of-type(2)");
 
-design.addEventListener("dblclick", designHandler);
-design.addEventListener("animationend", designHandler);
+jump2.addEventListener("dblclick", jump2Handler);
+jump2.addEventListener("animationend", jump2Handler);
 
-function designHandler() {
-  design.classList.toggle("nth-of-type-active");
-  design.classList.toggle("design");
+function jump2Handler() {
+  jump2.classList.toggle("nth-of-type-active");
+  jump2.classList.toggle("jump2");
 }
 
 
 
 
-//-----E-----
+//-----updown-----
 
-let E = document.querySelector("a:nth-of-type(3)");
+let updown = document.querySelector("a:nth-of-type(3)");
 
-E.addEventListener("dblclick", EHandler);
-E.addEventListener("animationend", EHandler);
+updown.addEventListener("dblclick", updownHandler);
+updown.addEventListener("animationend", updownHandler);
 
 
-function EHandler() {
-  E.classList.toggle("nth-of-type-active");
-  E.classList.toggle("E");
+function updownHandler() {
+  updown.classList.toggle("nth-of-type-active");
+  updown.classList.toggle("updown");
 }
 
 
@@ -59,37 +59,37 @@ function discoHandler() {
 //sprint5
 
 
-let sprint5 = document.querySelector("a:nth-of-type(5)");
+let toggle = document.querySelector("a:nth-of-type(5)");
 
-sprint5.addEventListener("dblclick", sprint5Handler);
-sprint5.addEventListener("animationend", sprint5Handler);
+toggle.addEventListener("dblclick", toggleHandler);
+toggle.addEventListener("animationend", toggleHandler);
 
-function sprint5Handler() {
-  sprint5.classList.toggle("nth-of-type-active");
-  sprint5.classList.toggle("sprint5");
+function toggleHandler() {
+  toggle.classList.toggle("nth-of-type-active");
+  toggle.classList.toggle("toggle");
 }
 
-//6
-let fix = document.querySelector("a:nth-of-type(6)");
+//zoomin
+let zoomin = document.querySelector("a:nth-of-type(6)");
 
-fix.addEventListener("click", fixHandler);
-fix.addEventListener("animationend", fixHandler);
+zoomin.addEventListener("click", zoominHandler);
 
-function fixHandler() {
-  fix.classList.toggle("nth-of-type-active");
-  fix.classList.toggle("fix");
+
+function zoominHandler() {
+  zoomin.classList.toggle("nth-of-type-active");
+  zoomin.classList.toggle("zoomin");
 }
 
 
-//the
+//turn
 
 
-let the = document.querySelector("a:nth-of-type(7)");
+let turn = document.querySelector("a:nth-of-type(7)");
 
-the.addEventListener("dblclick", theHandler); 
-function theHandler() {
-  the.classList.toggle("nth-of-type-active");
-  the.classList.toggle("the");
+turn.addEventListener("dblclick", turnHandler); 
+function turnHandler() {
+  turn.classList.toggle("nth-of-type-active");
+  turn.classList.toggle("turn");
 }
 
 //flow
@@ -120,7 +120,7 @@ function userHandler() {
 //interface
 let interface = document.querySelector("a:nth-of-type(10)");
 
-interface.addEventListener("click", interfaceHandler); 
+interface.addEventListener("mouseover", interfaceHandler); 
 function interfaceHandler() {
   interface.classList.toggle("nth-of-type-active");
   interface.classList.toggle("interface");

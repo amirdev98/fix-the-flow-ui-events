@@ -3,7 +3,7 @@
 let trill = document.querySelector("a:nth-of-type(1)");
 
 trill.addEventListener("dblclick", trillHandler);
-trill.addEventListener("animationend", trillHandler);
+
 
 function trillHandler() {
   trill.classList.toggle("nth-of-type-active");
@@ -15,7 +15,7 @@ function trillHandler() {
 let jump2 = document.querySelector("a:nth-of-type(2)");
 
 jump2.addEventListener("dblclick", jump2Handler);
-jump2.addEventListener("animationend", jump2Handler);
+
 
 function jump2Handler() {
   jump2.classList.toggle("nth-of-type-active");
@@ -30,7 +30,7 @@ function jump2Handler() {
 let updown = document.querySelector("a:nth-of-type(3)");
 
 updown.addEventListener("dblclick", updownHandler);
-updown.addEventListener("animationend", updownHandler);
+
 
 
 function updownHandler() {
@@ -62,7 +62,7 @@ function discoHandler() {
 let toggle = document.querySelector("a:nth-of-type(5)");
 
 toggle.addEventListener("dblclick", toggleHandler);
-toggle.addEventListener("animationend", toggleHandler);
+
 
 function toggleHandler() {
   toggle.classList.toggle("nth-of-type-active");
